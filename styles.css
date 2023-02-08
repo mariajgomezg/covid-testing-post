@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-blue: #021734;
+    --light-blue: #1b2a53;
+    --red-whine: #9b292f;
+    --green: #309d28;
+    --dark-green: #309d28;
+    --yellow: #e5c16e;
+    --text-light-blue: #5a688d;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.general-container{
+    width: 100%;
+}
+
+.image-information{
+    background-image: url(./assets/ppic-copia.jpeg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+
+.department{
+    color: white;
+    font-weight: bolder;
+    padding: 40px 0px 10px 40px;
+    height: fit-content;
+} 
+
+.second-line span:nth-child(1){
+    background-color: var(--red-whine);
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    padding: 8px 10px;
+    height: 60px;
+    width: 100px;
+}
+
+.second-line p:nth-child(2){
+    color: white;
+    font-family: 'Delius', cursive;
+    font-size: xx-large;
+    padding-left: 130px;
+}
+
+.covid-19, .testing{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    font-weight: lighter;
+    font-size: 70px;
+    letter-spacing: 1px;
+    z-index: 1;
+    line-height: 65px;
+}
+
+.testing{
+    font-size: 90px;
+}
+
+.coronas-img img:nth-child(1){
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    left: 300px;
+}
+.coronas-img img:nth-child(2){
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 160px;
+    left: 415px;
+}
+.coronas-img img:nth-child(3){
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 210px;
+    left: 413px;
+}
+
+.date-hour {
+    color: var(--yellow);
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.date-hour p:nth-child(2){
+    font-size: 15px;
+}
+
+.blue-line {
+    background-color: var(--dark-blue);
+    width: 100%;
+    height: 70px;
+    box-shadow: 1px -30px 55px 9px rgba(2,23,52,1);
+    -webkit-box-shadow: 1px -30px 55px 9px rgba(2,23,52,1);
+    -moz-box-shadow: 1px -30px 55px 9px rgba(2,23,52,1);
+    margin-top: 50px;
+}
+
+.date-hour-info{
+    margin-top: 12px;
+    align-items: center;
+}
+
+.date-hour, .location{
+    margin-top: -24px;
+}
+
+.location{
+    color: white;
+    font-weight: bolder;
+    font-size: 14px
+}
+
+.open-for{
+    background-color: var(--green);
+    color: white;
+    width: 80%;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 10px 35px;
+    position: absolute;
+    top: 380px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+}
+
+.testing-info {
+    background-color: var(--light-blue);
+    padding-top: 40px;
+    width: 100%;
+    text-align: start;
+}
+
+.left-side, .right-side{
+    padding: 10px;
+}
+
+.diagnostic-testing, .antibody-testing{
+    display: flex;
+    justify-content:flex-start;
+    margin: auto;
+    color: white;
+    align-items: center;
+    font-size: 18px;
+}
+
+.diagnostic-testing img, .antibody-testing img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.left-side p, .right-side p{
+    padding: 10px 30px ;
+    color: lightgray;
+}
+
+.contact-info{
+    background-color: var(--dark-blue);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 25px 0px;
+}
+
+.contact-info p:nth-child(1){
+    font-size: 20px;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: var(--dark-green);
+}
